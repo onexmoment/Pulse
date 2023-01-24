@@ -1,0 +1,17 @@
+@media (max-width:991px) {
+    .container {
+        max-width: 100%;
+    }
+    .header {
+        padding: 0 15px;
+    }
+    .promo__wrapper {
+        padding-right: 15px;
+    }
+    .advantage__wrapper {
+        padding: 0 15px;
+    }
+    .advantage .advantage__block {
+        max-width: 221px;
+    }
+}
