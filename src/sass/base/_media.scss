@@ -38,7 +38,7 @@
     .promo {
         &__wrapper {
             align-items: center;
-            margin-top: 60px;
+            margin-top: 90px;
             padding: 0;
         }
         &__header {
@@ -140,6 +140,9 @@
         }
         &__icons {
             width: 90%;
+            img {
+                width: 30%;
+            }
         }
     }
     .title {
