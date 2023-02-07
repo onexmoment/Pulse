@@ -41,9 +41,16 @@
         display: none;
         justify-content: space-between;
         flex-wrap: wrap;
+        &:nth-child(5) {
+            justify-content: flex-start;
+        }
+        &:nth-child(5) > div {
+            margin: 0 12px;
+        }
         &_active {
             display: flex;
         }
+        
     }
     &-item {
         width: 300px;

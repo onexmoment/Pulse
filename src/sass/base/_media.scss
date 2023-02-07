@@ -1,3 +1,13 @@
+@media (max-width:1199px) {
+    .carousel {
+        .prev, .next {
+            display: none;
+        }
+        .tns-nav {
+            display: flex;
+        }
+    }
+}
 @media (max-width:991px) {
     .container {
         max-width: 100%;
@@ -213,6 +223,13 @@
     .advantage {
         &__descr {
             font-size: 13px;
+        }
+    }
+    .carousel {
+        .tns-nav > button {
+            width: 50px;
+            height: 50px;
+            margin: 3px;
         }
     }
     .feed-form {

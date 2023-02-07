@@ -32,4 +32,27 @@
                 color: #ff0000
             }
     }
+    &__icon {
+        &:hover {
+            animation-play-state: running;
+        }
+        &_animated {
+            animation: heartbeat 1.5s ease infinite;
+            // animation-name: heartbeat;
+            // animation-duration: 1.5s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+            animation-play-state: paused;
+        }
+        &_shakeY {
+            animation: shakeY;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            animation-play-state: paused;
+        }
+        &_swing {
+            animation: swing 1.5s ease infinite;
+            animation-play-state: paused
+        }
+    }
 }

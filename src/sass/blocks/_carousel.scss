@@ -27,4 +27,23 @@
             margin: 0 auto;
         }
     }
+    .tns-nav {
+        display: none;
+        justify-content: center;
+    }
+    .tns-nav > button {
+        width: 100px;
+        height: 100px;
+        margin: 1px;
+        border-color: black;
+    }
+    [data-nav="0"] {
+        background: url('../img/watch.png') center center/contain no-repeat;
+    }
+    [data-nav="1"] {
+        background: url('../img/triple_watch.png') center (center/contain) no-repeat;
+    }
+    [data-nav="2"] {
+        background: url('../img/triple_cool_watch.png') center (center/contain) no-repeat;
+    }
 }

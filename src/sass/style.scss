@@ -1,8 +1,13 @@
 @import "base/variables";
+@import "base/animations";
 
 * {
     font-family: 'Museo Sans Cyrl', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+  }
 
 .container {
     position: relative;
@@ -22,4 +27,5 @@
 @import "blocks/reviews";
 @import "blocks/footer";
 @import "blocks/modal";
+@import "blocks/pageup";
 @import "base/media";
